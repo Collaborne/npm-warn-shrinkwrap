@@ -12,13 +12,13 @@ npm install --save-dev npm-warn-shrinkwrap
 
 ## Usage
 
-Configure this in `package.json` in the `preinstall` script:
+Configure this in `package.json` in the `install` script:
 
 ```js
 {
   ...,
   "scripts": {
-    "preinstall": "npm-warn-shrinkwrap"
+    "install": "npm-warn-shrinkwrap"
   }
 }
 
