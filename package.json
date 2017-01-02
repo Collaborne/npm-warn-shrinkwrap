@@ -1,6 +1,6 @@
 {
   "name": "npm-warn-shrinkwrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Warn/Fail installation if npm-shrinkwrap.json exists",
   "main": "index.js",
   "bin": "index.js",
