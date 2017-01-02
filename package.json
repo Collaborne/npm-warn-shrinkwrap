@@ -1,0 +1,28 @@
+{
+  "name": "npm-warn-shrinkwrap",
+  "version": "1.0.0",
+  "description": "Warn/Fail installation if npm-shrinkwrap.json exists",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "prepublish": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collaborne/npm-warn-shrinkwrap.git"
+  },
+  "keywords": [
+    "npm",
+    "shrinkwrap",
+    "build"
+  ],
+  "author": "Collaborne <info@collaborne.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Collaborne/npm-warn-shrinkwrap/issues"
+  },
+  "homepage": "https://github.com/Collaborne/npm-warn-shrinkwrap#readme",
+  "devDependencies": {
+    "eslint": "^3.12.2"
+  }
+}
